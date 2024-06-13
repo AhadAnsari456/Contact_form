@@ -1,0 +1,75 @@
+:root{
+    --Green200_lighter: hsl(148, 38%, 91%);
+--Green600_medium: hsl(169, 82%, 27%);
+--Red: hsl(0, 66%, 54%);
+--White: hsl(0, 0%, 100%);
+--Grey500_medium: hsl(186, 15%, 59%);
+--Grey900_darker: hsl(187, 24%, 22%);
+
+}
+body{
+    background-color: var(--Green200_lighter);
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    background-color: var(--White);
+    width: 30%;
+    height: 120%;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    border: 1px;
+    border-radius: 20px;
+    
+    
+    
+}
+#Last{
+    width: 36%;
+
+}
+.Lasta{
+    margin-left: 110px;
+    
+}
+
+h2{
+    padding-left: 10px;
+}
+#email{
+    width: 90%;
+}
+.radio1{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.radio2{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#radio1{
+     width: auto;
+}
+#radio2{
+  width: auto;
+}
+textarea{
+   width: 90%;
+}
+button{
+    width: 93%;
+    background-color: var(--Green600_medium);
+    color: var(--White);
+}
+button:hover{
+    color: rgb(226, 14, 14);
+}
+.radio1,input,textarea,button,.Last{
+    margin: 10px 15px;
+}
+.attribution{
+    padding-left: 10px;
+}
+
+
